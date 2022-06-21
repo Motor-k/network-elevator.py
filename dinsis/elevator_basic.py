@@ -1,5 +1,5 @@
 """
-This program is worker responsible for allways running and taking periodically requests from a flask server
+This program is a worker responsible for allways running and taking periodically requests from a flask server
 It simulates an elevator going up and down
 The elevator can open and close doors, wait for requests, update its status and remove entries from a queue
 Moving between floors takes 3 seconds and stoping on a floor takes 5 seconds

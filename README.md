@@ -7,5 +7,5 @@ developed by: Gustavo Bule
 pip install flask 
 set FLASK_APP=server.py
 $env:FLASK_APP = "server.py"
-flask run
+flask run --host=0.0.0.0
 ```

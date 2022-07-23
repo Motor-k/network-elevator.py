@@ -43,7 +43,7 @@
             // dont submit the form
             e.preventDefault()
             //set get the value of the button we pressed since this code handles different buttons based on the class
-            floor = $(this).attr("value")
+            floor = $(this).val()
             $.post("http://"+ip+":5000/background_process_test",{floor:floor},function(postresult){
               $(this).attr("disabled");
               // update status label with response from flask
